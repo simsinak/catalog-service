@@ -2,6 +2,9 @@ package io.sina.catalogservice.domain;
 
 import java.util.Optional;
 
+/**
+ * @author sinaaskarnejad
+ */
 public interface BookRepository {
 
     Iterable<Book> findAll();

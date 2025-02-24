@@ -12,6 +12,9 @@ import java.util.Set;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * @author sinaaskarnejad
+ */
 class BookValidationTests {
 
     private static Validator validator;

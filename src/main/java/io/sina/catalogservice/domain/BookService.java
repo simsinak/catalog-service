@@ -2,6 +2,9 @@ package io.sina.catalogservice.domain;
 
 import org.springframework.stereotype.Service;
 
+/**
+ * @author sinaaskarnejad
+ */
 @Service
 public class BookService {
     private final BookRepository bookRepository;

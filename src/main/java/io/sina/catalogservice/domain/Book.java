@@ -5,6 +5,9 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Positive;
 
+/**
+ * @author sinaaskarnejad
+ */
 public record Book(
         @NotBlank(message = "The book ISBN must be defined.")
         @Pattern(regexp = "^(\\d{10}|\\d{13})$", message = "The ISBN format must be valid")
